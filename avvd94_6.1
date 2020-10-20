@@ -1,0 +1,3 @@
+CREATE TABLE gyarto(adoszam INT PRIMARY KEY, nev CHAR(50), telephely VARCHAR(50));
+CREATE TABLE termek(tkod INT PRIMARY KEY, nev CHAR(50), ear NUMERIC NOT NULL, gyarto INT FOREIGN KEY);
+
